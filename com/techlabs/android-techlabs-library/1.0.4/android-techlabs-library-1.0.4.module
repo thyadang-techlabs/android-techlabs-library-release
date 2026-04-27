@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.techlabs",
+    "module": "android-techlabs-library",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-techlabs-library-1.0.4.aar",
+          "url": "android-techlabs-library-1.0.4.aar",
+          "size": 47555,
+          "sha512": "5d1350287fabbb5d1c3c5ebed4eeece658518efc504a950e9c8c1a655b01a6281806b8a98d3dcc6a65475c828bedcd003481abedd5dc0c56dd534e2162c11631",
+          "sha256": "559d461e4b9e28dcf6c22bbb103b9bbb28a9bacad521803cbdfef84d9e65446b",
+          "sha1": "8c79941d99f4426c4ab3c60f604e392157401b3a",
+          "md5": "d6dc25ce2f2c758d8479ef16422a6e3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-techlabs-library-1.0.4.aar",
+          "url": "android-techlabs-library-1.0.4.aar",
+          "size": 47555,
+          "sha512": "5d1350287fabbb5d1c3c5ebed4eeece658518efc504a950e9c8c1a655b01a6281806b8a98d3dcc6a65475c828bedcd003481abedd5dc0c56dd534e2162c11631",
+          "sha256": "559d461e4b9e28dcf6c22bbb103b9bbb28a9bacad521803cbdfef84d9e65446b",
+          "sha1": "8c79941d99f4426c4ab3c60f604e392157401b3a",
+          "md5": "d6dc25ce2f2c758d8479ef16422a6e3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-techlabs-library-1.0.4-sources.jar",
+          "url": "android-techlabs-library-1.0.4-sources.jar",
+          "size": 13005,
+          "sha512": "48b50e9c4586e2aa5f13646cd7c1bf5ac177a8807e55e99709f5dec4b1dfa9962c234f3fb37531aefec1af7ffb23662169574d2f9bb5880f1cdd0adc23d9180b",
+          "sha256": "763df4effcb7a36cba480af6ee9b55ba715f24ca7265f891c31f649e172f9aa3",
+          "sha1": "555ec9b971e60b074e908ba3eb3a3031a13faae4",
+          "md5": "a74b99cbcc347aad415b76c518f40940"
+        }
+      ]
+    }
+  ]
+}
